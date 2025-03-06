@@ -1,4 +1,17 @@
 baseURL = 'http://hugo-quickstart-template.netlify.com'
 languageCode = 'en-us'
-title = 'Netlify + Hugo Quickstart'
+title = 'noalemadic'
 theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"  # Can be "auto", "light", or "dark"
+  ShowReadingTime = true  # Show reading time on posts
+  ShowShareButtons = true # Show social share buttons
+  ShowBreadCrumbs = true  # Enable breadcrumbs navigation
+  ShowPostNavLinks = true # Show previous/next post links
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
