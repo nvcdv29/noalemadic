@@ -3,11 +3,6 @@ languageCode = 'en-us'
 title = 'noalemadic'
 theme = "PaperMod"
 
-baseURL = 'https://noalemadic.netlify.app'
-languageCode = 'en-us'
-title = 'noalemadic'
-theme = "PaperMod"
-
 [params]
   [params.homeInfoParams]
     title = "Hi, ich bin Noah."
