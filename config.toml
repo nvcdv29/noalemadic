@@ -8,11 +8,21 @@ theme = "PaperMod"
     enabled = true
     title = "Hi! Ich bin Noah."
     subtitle = "Auf dieser Seite findest du Berichte über meine Reisen und Erlebnisse. Aktuell bin ich in der Toskana mit dem Fahrrad unterwegs."
-    imageUrl = "https://images.unsplash.com/photo-1599850929872-2dec3cbafd7f"  # Ersetze mit deinem Bild
+    imageUrl = "/images/noah-profile.jpg"  # Pfad zu deinem Bild
     imageTitle = "Profilbild von Noah"
-    imageWidth = 150  # Optional, Bildgröße anpassen
-    imageHeight = 150  # Optional, Bildgröße anpassen
+    imageWidth = 300  # Stelle sicher, dass das Bild nicht rund gecroppt wird
+    imageHeight = 200  # Rechteckige Darstellung
+    buttons = [
+      { name = "Alle Beiträge", url = "/posts" },
+      { name = "Über mich", url = "/about" }
+    ]
+
+  homeInfoParams = { Title = "Aktuelle Blog-Posts", Content = "Hier findest du meine neuesten Berichte." }
 
   [[params.socialIcons]]
     name = "Instagram"
     url = "https://www.instagram.com/n0.h29/"
+
+  [[params.socialIcons]]
+    name = "GitHub"
+    url = "https://github.com/yourusername"
