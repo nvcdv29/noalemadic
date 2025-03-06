@@ -2,3 +2,16 @@ baseURL = 'http://hugo-quickstart-template.netlify.com'
 languageCode = 'en-us'
 title = 'noalemadic'
 theme = "PaperMod"
+
+[params]
+  [params.homeInfoParams]
+    title = "Hi, ich bin Noah."
+    content = "Auf dieser Seite findest du Berichte über meine Reisen und Erlebnisse. Aktuell bin ich in der Toskana mit dem Fahrrad unterwegs."
+
+  [[params.socialIcons]]
+    name = "Instagram"
+    url = "https://www.instagram.com/n0.h29/"
+  
+  [[params.socialIcons]]
+    name = "<platform 2>"
+    url = "<link2>"

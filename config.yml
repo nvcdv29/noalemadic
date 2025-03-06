@@ -1,27 +1,10 @@
-[params]
-  defaultTheme = "auto"  # Can be "auto", "light", or "dark"
-  ShowReadingTime = true  # Show reading time on posts
-  ShowShareButtons = true # Show social share buttons
-  ShowBreadCrumbs = true  # Enable breadcrumbs navigation
-  ShowPostNavLinks = true # Show previous/next post links
+params:
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
+    Title: Hi! Ich bin Noah.
+    Content: Auf dieser Seite findest du Berichte über meine Reisen und Erlebnisse. Aktuell bin ich in der Toskana mit dem Fahrrad unterwegs. 
 
-    socialIcons: # optional
-    - name: "<platform>"
-        url: "<link>"
+  socialIcons: # optional
+    - name: "Instagram"
+      url: "https://www.instagram.com/n0.h29/"
     - name: "<platform 2>"
-        url: "<link2>"
-
-[menu]
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # necessary for search
+      url: "<link2>"
