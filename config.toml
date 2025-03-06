@@ -4,14 +4,20 @@ title = 'noalemadic'
 theme = "PaperMod"
 
 [params]
-  [params.homeInfoParams]
-    title = "Hi, ich bin Noah."
-    content = "Auf dieser Seite findest du Berichte über meine Reisen und Erlebnisse. Aktuell bin ich in der Toskana mit dem Fahrrad unterwegs."
+  [params.profileMode]
+    enabled = true
+    title = "Hi! Ich bin Noah."
+    subtitle = "Auf dieser Seite findest du Berichte über meine Reisen und Erlebnisse. Aktuell bin ich in der Toskana mit dem Fahrrad unterwegs."
+    imageUrl = "https://images.unsplash.com/photo-1599850929872-2dec3cbafd7f"  # Ersetze mit deinem Bild
+    imageTitle = "Profilbild von Noah"
+    imageWidth = 150  # Optional, Bildgröße anpassen
+    imageHeight = 150  # Optional, Bildgröße anpassen
 
   [[params.socialIcons]]
     name = "Instagram"
     url = "https://www.instagram.com/n0.h29/"
-  
+
   [[params.socialIcons]]
-    name = "<platform 2>"
-    url = "<link2>"
+    name = "GitHub"
+    url = "https://github.com/yourusername"
+
